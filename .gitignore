@@ -1,0 +1,163 @@
+# ======================================================
+# PYTHON / GENERAL
+# ======================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.pyo
+*.egg
+*.egg-info/
+dist/
+build/
+wheels/
+*.manifest
+*.spec
+
+# ======================================================
+# DJANGO CORE
+# ======================================================
+# Local DB
+db.sqlite3
+*.sqlite3
+
+# Migrations cache (keep __init__.py)
+*/migrations/__pycache__/
+*/migrations/*.pyc
+!*/migrations/__init__.py
+
+# ======================================================
+# STATIC & MEDIA MANAGEMENT
+# ======================================================
+# DO NOT ignore: static/
+# (source CSS/JS/images — must be version controlled)
+
+# Ignore Django build output
+staticfiles/
+static_root/
+
+# User-uploaded files (never commit)
+media/
+media_root/
+uploads/
+
+# ======================================================
+# LOGS
+# ======================================================
+*.log
+logs/
+logging/
+gunicorn.log
+gunicorn.pid
+
+# ======================================================
+# SETTINGS (SENSITIVE)
+# ======================================================
+.env
+.env.*
+*.env
+*.key
+*.secret
+config/local_settings.py
+settings_local.py
+settings_dev.py
+settings_debug.py
+settings_production.py
+*.local.py
+
+# ======================================================
+# VIRTUAL ENVS
+# ======================================================
+env/
+venv/
+ENV/
+.venv/
+.conda/
+
+# ======================================================
+# EDITOR / IDE
+# ======================================================
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+*.iml
+*.ipr
+*.iws
+out/
+
+# ======================================================
+# OS JUNK FILES
+# ======================================================
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.trash/
+
+# ======================================================
+# TESTING / COVERAGE
+# ======================================================
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# ======================================================
+# NODE / FRONTEND OPTIONAL
+# (if project uses React/Vue build inside)
+# ======================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tsbuildinfo
+
+# ======================================================
+# DOCKER
+# ======================================================
+docker/
+docker-compose.override.yml
+docker-compose.local.yml
+*.pid
+
+# Docker volumes
+data/
+volumes/
+
+# ======================================================
+# CACHE / TEMP
+# ======================================================
+.cache/
+tmp/
+temp/
+*.tmp
+*.bak
+*.old
+
+# ======================================================
+# JUPYTER
+# ======================================================
+.ipynb_checkpoints/
+
+# ======================================================
+# CI/CD SYSTEM FILES
+# ======================================================
+.github/
+.gitlab/
+*.retry
+
+# ======================================================
+# ARCHIVES
+# ======================================================
+*.tar.gz
+*.zip
+*.7z
