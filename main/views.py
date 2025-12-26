@@ -9,4 +9,4 @@ def hello_view(request):
 # class based view
 class HelloView(View):
     def get(self,request):
-        return HttpResponse("<h1>man class based viewman!</h1>")
+        return HttpResponse("<h1>it is class based view!</h1>")
